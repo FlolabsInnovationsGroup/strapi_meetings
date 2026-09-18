@@ -472,7 +472,7 @@ export interface ApiMeetingMeeting extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    website: Schema.Attribute.String &
+    website_name: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
   };

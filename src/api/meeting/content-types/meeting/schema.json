@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "website": {
+    "website_name": {
       "type": "string",
       "required": true,
       "unique": true
