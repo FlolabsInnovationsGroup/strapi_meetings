@@ -11,6 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "website": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
     "meeting_link": {
       "type": "string",
       "required": true,
